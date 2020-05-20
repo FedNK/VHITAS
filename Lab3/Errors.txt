@@ -1,0 +1,17 @@
+﻿C: 13, 0: Exactly one space required after comma      - Требуется только один пробел после запятой, 2 лишние         
+    return round(x/y,  ACCURACY)
+                    ^ (bad-whitespace)
+C: 28, 0: Final newline missing (missing-final-newline)  - Нужна пустая строка после окончания модуля
+C:  1, 0: Missing module docstring (missing-docstring)   - Отсутствует docstrin модуля	
+C:  5, 0: Invalid constant name "default_accuracy" (invalid-name)	- Некорректное наименование константы
+C:  8, 0: Invalid function name "sumTwoValues" (invalid-name)		- Некорректное наименование функции
+C:  8, 0: Missing function docstring (missing-docstring)		- Отсутствует docstring функции
+C: 12, 0: Invalid argument name "ACCURACY" (invalid-name)		- Некорректное наименование аргумента функции
+C: 12, 0: Missing function docstring (missing-docstring)		- Отсутствует docstring функции
+W: 12,24: Unused argument 'module' (unused-argument)			- Неиспользуемый аргумент "module"
+C: 17, 0: Missing function docstring (missing-docstring)		- Отсутствует docstring функции
+C: 20, 0: Missing function docstring (missing-docstring)		- Отсутствует docstring функции
+C: 24, 0: Missing function docstring (missing-docstring)		- Отсутствует docstring функции
+W:  3, 0: Unused import sqlite3 (unused-import)				- Импортирован модуль, который не используется
+C:  2, 0: standard import "import random" comes before "import numpy as np" (wrong-import-order) 	 - Неверный порядок импорта
+C:  3, 0: standard import "import sqlite3" comes before "import numpy as np" (wrong-import-order)	 - Неверный порядок импорта
