@@ -1,0 +1,6 @@
+print("Введите диаметр нитки: ")
+d = float(input())
+print("Введите длину нитки: ")
+l = float(input())
+dklyb = 2 * pow(4 * l * pow(d/2, 2) / 3, 1/3)
+print(str(dklyb))
